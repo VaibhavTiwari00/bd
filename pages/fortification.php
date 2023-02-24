@@ -17,14 +17,34 @@
     <!-- FORTIFICATION CSS -->
     <link rel="stylesheet" href="<?= get_file('fortification.css'); ?>">
 
+    <style>
+        .about-box {
+            width: 50%;
+            height: 100%;
+            background-color: var(--bg-yellow);
+            position: absolute;
+            top: 27%;
+            right: 10%;
+            padding: 5% 4% 8% 4%;
+            color: #262626;
+            overflow: hidden;
+        }
 
+        .about-box>p {
+            margin: 5% 0 10% 0;
+            font-size: 18px;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            opacity: 0.8;
+        }
+    </style>
 </head>
 
 <body>
 
     <?php include_once header; ?>
 
-    <main>
+    <main style="margin-bottom:50vh">
         <section class="about-partners">
             <img src="./assets/img/home-3.jpeg" alt="">
 
@@ -39,7 +59,10 @@
 
 
                 <p>
-                    <span class="comingsoon-heading">#COMINGSOON</span>
+                    Healthy food is the right of every citizen. Unfortunately, every 2nd Indian man and woman suffers from anemia and the 3rd child faces stunted growth. Fortification is the process of adding FSSAI-prescribed micronutrients (Iron, Folic Acid, Vitamin B12) to commonly consumed staples like rice, wheat, milk, and salt. Fortification of rice offers a sustainable solution to “hidden hunger” as rice is consumed by 65% of the Indian population.
+                    Considering the benefits, the GoI has mandated the supply of fortified rice and wheat through government schemes across the country. We are the trusted partner of the FCI and the West Bengal government for the supply of fortified rice kernels (FRK), fortified wheat, and micronutrient-enriched pre-mixes.
+                    Our facilities are based on international guidelines laid by PATH and GAIN (Global Alliance for Improved Nutrition) which allows us to customize the FRKs as per the client’s requirements.
+
                 </p>
 
                 <a href="#product" class="scroll-txt">Scroll</a>

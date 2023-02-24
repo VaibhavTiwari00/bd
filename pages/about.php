@@ -24,13 +24,15 @@
         <section class="main">
             <div class="div-container-padding landing-section">
                 <h1>
-                    WE HELP YOU <br>KEEP COMMITMENTS <br> TO YOUR VALUED CUSTOMERS
+                    <!-- WE HELP YOU <br>KEEP COMMITMENTS <br> TO YOUR VALUED CUSTOMERS -->
+                    Our Promise of Taste,<br> Quality, and Time
+                    To Make <br>Your Brand Customer’s First Choice
 
                 </h1>
 
-                <!-- <p>
-                    Our goal is to be the leading regional supplier of industrial and intralogistics automation solutions and components. We try to pave the way for the future.
-                </p> -->
+                <p>
+                    We deliver manufacturing and logistics solutions at scale so you can spend more time doing what you love—growing your business.
+                </p>
 
                 <span>
                     SCROLL
@@ -50,16 +52,18 @@
 
                     <h4>About US</h4>
                     <h2>A BIT MORE ABOUT US</h2>
+                    <p style="color:#fff;letter-spacing: 1.1px;">“It is difficult, but not impossible, to conduct strictly honest business.” – <b>Mahatma Gandhi.</b></p>
                     <p>
-                        Sri Rajendra founded B.D. Corporates Pvt. Ltd. in 1980.
-                        Agarwal and Sri Mahendra Agarwal, belonging to the same family
-                        who put their first step into food manufacturing and processing
-                        industry by capitalising on unbound agriculture growth and natural
-                        geographical resources of Bengal. Since "rice" and "flour" are the most commonly used words in India,
-                        main staple food, with Bengal occupying a prominent position in terms of
-                        Rice Production: They stepped into this industry with zeal and valour to
+                        B.D. Corporates is a leading contract manufacturer in India serving quality and taste since 1970. We aim to deliver nourishment to our countrymen at affordable prices through our cherished B2B channel partners.
                         make a mark of their own.
                     </p>
+                    <p>
+                        We are preferred suppliers of bakery all-purpose flour, maida, sooji, bran oil, etc. for industry majors like ITC, Jaya, and Anmol Biscuits. Today, the group is also the trusted supplier to the West Bengal government and The Food Corporation of India (FCI) for fortified rice kernels (FRK), rice, and wheat flour.
+                    </p>
+                    <p>
+                        Commencing from one cold storage in 1970, B.D. Corporates now offer “all-under-one-roof” contract manufacturing solutions qualitatively and ethically. Our core strength lies in continuous learning from the Japanese principles of management, improving, and delivering the best to the end-users.
+                    </p>
+                    <p>We welcome you to experience our class-apart manufacturing and packaging facilities appended with resilient supply chain integration to meet all your food needs.</p>
 
                 </div>
             </div>
@@ -67,13 +71,55 @@
             <div class="section-2-2">
 
                 <h4>OUR VALUES</h4>
-                <p>
-                    We support regional retail brands by our offerings and our deliverables. With our integrated supply chain business model we are able to conduct our business activities in the most efficient and cost effective way.
+                <div class="value-parent">
+                    
+                    <div class="value-child">
+                        <div class="value-child-img">
+                            <img src="<?= get_img() ?>balance-scale-1.png" alt="">
+                        </div>
+                        <div class="value-child-content">
+                            <h4>Business Ethics</h4>
+                            <p>
+                                We prioritize ever-lasting relations both with our suppliers, “the FARMERS” and you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="value-child">
+                        <div class="value-child-img">
+                            <img src="<?= get_img() ?>badge.png" alt="">
+                        </div>
+                        <div class="value-child-content">
+                            <h4>Quality</h4>
+                            <p>
+                                Our manufacturing facilities are laced with German technology and precision to supply only the best quality processed food commodities.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="value-child">
+                        <div class="value-child-img">
+                            <img src="<?= get_img() ?>delivery-time.png" alt="">
+                        </div>
+                        <div class="value-child-content">
+                            <h4>On-Time Deliverables</h4>
+                            <p>
+                                Our integrated approach involves in-house packaging and an integrated supply chain to ensure timely deliveries as promised.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="value-child">
+                        <div class="value-child-img">
+                            <img src="<?= get_img() ?>profit.png" alt="">
+                        </div>
+                        <div class="value-child-content">
+                            <h4>Cost-Effectiveness</h4>
+                            <p>
+                                We supply commodities at the best price as we calibrate the economy of scale through our high-volume model.
+                            </p>
+                        </div>
+                    </div>
 
-                    <!-- With a strong set of principles and the ability to analyse the present with
-                    the past market scenario and foreseeing the future helped in making
-                    decision. -->
-                </p>
+                </div>
+
 
 
                 <!-- <iframe width="908" height="510" src="https://www.youtube.com/embed/PwM4VuJsRr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->

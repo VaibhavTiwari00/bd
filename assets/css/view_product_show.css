@@ -47,6 +47,7 @@
 .product-child-grid-img > img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .product-child-grid-content {
   padding: 20% 15% 15% 15%;

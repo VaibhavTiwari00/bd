@@ -22,7 +22,7 @@
 }
 
 .landing-section > h1 {
-  font-size: 80px;
+  font-size: 60px;
   color: var(--txt-white);
   font-family: var(--style-1);
   letter-spacing: 5px;
@@ -30,7 +30,13 @@
   margin-bottom: 2%;
   font-weight: 500;
 }
-
+.product-child-grid-content > ul > li {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #fff;
+  opacity: 0.5;
+}
 .landing-section > p {
   font-size: 20px;
   color: var(--txt-gray);
@@ -199,4 +205,8 @@
 .product {
   padding-top: 5%;
   padding-bottom: 5%;
+}
+#p-1 .product-child-grid-content {
+  padding: 6% 6% 10% 6%;
+  background-color: #2e2e2e;
 }

@@ -22,11 +22,11 @@
 }
 
 .landing-section > h1 {
-  font-size: 80px;
+  font-size: 60px;
   color: var(--txt-white);
   font-family: var(--style-1);
   letter-spacing: 5px;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 2%;
   font-weight: 500;
 }
@@ -61,7 +61,7 @@
 .section-2 {
   background-color: var(--bg-gray-img);
   background-image: url("../../assets/img/about-us-our-location.jpg");
-  height: 200vh;
+  height: 250vh;
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -81,10 +81,10 @@
 
 .section-2-1-text {
   display: flex;
-  padding: 5%;
+  /* padding: 5%; */
   flex-direction: column;
   justify-content: flex-end;
-  padding-left: 22%;
+  padding-left: 15%;
 }
 
 .section-2-1-text > h4 {
@@ -100,21 +100,19 @@
   letter-spacing: 5px;
   font-weight: 300;
   font-size: 55px;
-  width: 70%;
 }
 
 .section-2-1-text > p {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--txt-gray);
   margin-bottom: 10px;
   z-index: 1;
-  margin-top: 9%;
-  margin-bottom: 5%;
+  margin: 3% 0;
   font-weight: 300;
 }
 
 .section-2-2 {
-  padding: 0 9%;
+  padding: 0 2%;
   position: relative;
 }
 
@@ -333,4 +331,40 @@
 .news-details > p {
   margin-top: 8%;
   font-size: 23px;
+}
+.value-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  grid-gap: 5%;
+  margin: 5% 0;
+}
+.value-child {
+  display: flex;
+  margin-bottom: 4%;
+}
+.value-child-img {
+  display: grid;
+}
+.value-child-img > img {
+  width: 40px;
+  height: auto;
+}
+.value-child-content {
+  margin-left: 4%;
+}
+.value-child-content > h4 {
+  color: var(--txt-white);
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+.value-child-content > p {
+  font-size: 16px;
+  color: var(--txt-gray);
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  z-index: 1;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-weight: 300;
 }

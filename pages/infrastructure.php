@@ -17,7 +17,34 @@
     <!-- View Products section css  -->
     <link rel="stylesheet" href="<?= get_file('view_product_show.css'); ?>">
 
+    <style>
+        .product-child-grid-content {
+            padding: 10% 6% 6% 5%;
 
+        }
+
+        .product-child-grid-content>h2 {
+            font-size: 46px;
+            margin-bottom: 5%;
+            letter-spacing: 4px;
+        }
+
+
+
+        .product-child-grid-content>ol {
+            margin-left: 15px;
+
+        }
+
+        .product-child-grid-content>p,
+        .product-child-grid-content>ol>li {
+
+            font-size: 1.125rem;
+            line-height: 1.5;
+            color: #fff;
+            opacity: 0.5;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,7 +62,6 @@
                 <h2>
                     Infrastructure
                 </h2>
-
 
 
                 <p>
@@ -73,6 +99,7 @@
                     <li><a href="#p-3">Packaging Unit</a></li>
                     <li><a href="#p-4">Lab</a></li>
                     <li><a href="#p-5">Cold Storage</a></li>
+                    <li><a href="#p-6">Warehouing</a></li>
                 </ul>
             </div>
 
@@ -80,14 +107,20 @@
                 <div class="product-child-grid" id="p-1">
                     <div class="product-child-grid-content">
                         <h2>Floor mill division</h2>
-                        <p>A Flour Mill with a Capacity of 63,000
-                            tonnes per annum (tpa) in Purusottambati, Sugandha village
-                            of Hooghly district West Bengal where ‘wheat’ is processed
-                            into flor products such as Atta, Maida, Suji, and wheat bran.
-                            The Company Has been manufacturing flour products since
-                            2004 and with the passage of time thorough consistent
-                            supply and timely delivery of products, the company has
-                            been able to develop a true & loyal clientele.</p>
+                        <p>Our state-of-the-art flour mill comprises German-imported technology. We have a capacity of processing 1,00,000 tons per annum of flour in various districts of West Bengal. After passing the quality checks, wheat is processed to remove the inner endosperm from the outer bran coat with precision, to avoid its contamination. Our notable product portfolio includes atta, maida, sooji, and wheat bran.
+                            We have been in the flour business since 2004 building a loyal clientele owing to our consistent quality and uninterrupted supply chain.
+                            <br><br>
+                            <b>Our promises:</b>
+
+                            <br>
+                            *Best quality
+                            <br>
+                            *Consistency and timely delivery
+                            <br>
+                            *24x7 customer support
+                            <br>
+                            *Customization as per the client’s requirements
+                        </p>
 
                     </div>
                     <div class="product-child-grid-img">
@@ -100,16 +133,29 @@
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Rice mill division</h2>
-                        <p>A Rice Mill with a Capacity of 92,500
-                            tpa is situated in Brunda, Bagnan village in Howrah district of
-                            West Bengal. Few of the verities produced by us are parboil,
-                            Miniket, Swarna, Brown Rice, and Non-basmati rice IR-36, IR-
-                            64. Having state of the art milling facilities with modern
-                            machineries producing optimum capacity per day. Healthy
-                            relationship with customers and suppliers in one hand and
-                            quality, pricing, reliability & Flexibility is the main forte of the
-                            company.
-                        </p>
+                        <p>Our sophisticated rice mill with a capacity of 1,50,000 tons per annum is situated at multiple locations in West Bengal. Our prominent supplies include </p>
+                        <br>
+                        <ol>
+                            <li>
+                                Parboiled
+                            </li>
+                            <li>
+                                Miniket
+                            </li>
+                            <li>
+                                Swarna
+                            </li>
+                            <li>
+                                Brown
+                            </li>
+                            <li>
+                                5. Non-basmati IR-36 and IR-64
+                            </li>
+                        </ol>
+                        <br>
+                        <p>We follow rigorous pre-processing of the incoming paddy to remove contaminants like weeds, straw, soil, etc. before hulling. This ensures the optimum quality of brown rice after de-husking. The separated husk is routed to our in-house power plant. Brown rice is either packed or sent for further processing to produce white rice by removing bran and germ.</p>
+
+
 
                     </div>
 
@@ -118,15 +164,16 @@
                     <div class="product-child-grid-content">
                         <h2>Packaging Unit</h2>
 
-                        <p>A Rice Mill with a Capacity of 92,500
-                            tpa is situated in Brunda, Bagnan village in Howrah district of
-                            West Bengal. Few of the verities produced by us are parboil,
-                            Miniket, Swarna, Brown Rice, and Non-basmati rice IR-36, IR-
-                            64. Having state of the art milling facilities with modern
-                            machineries producing optimum capacity per day. Healthy
-                            relationship with customers and suppliers in one hand and
-                            quality, pricing, reliability & Flexibility is the main forte of the
-                            company.</p>
+                        <p>The quality packaging of a food product is equally important as processing in preserving the nutritional value and taste. We offer customized and robust in-house packaging options in-line with governmental regulations with the following features</p>
+                        <br>
+                        <ol>
+                            <li>Moisture, microbes, and pests resistant</li>
+                            <li>Spillage and excessive heat resistant</li>
+                            <li>Safe, economical, and attractive</li>
+                            <li>
+                                Robust to withstand transport-related abrasions
+                            </li>
+                        </ol>
                     </div>
                     <div class=" product-child-grid-img">
                         <img src="./assets/img/product-03.jpg" alt="">
@@ -137,17 +184,22 @@
                         <img src="./assets/img/product-02.jpg" alt="">
                     </div>
                     <div class="product-child-grid-content">
-                        <h2>Lab</h2>
-                        <p>A Rice Mill with a Capacity of 92,500
-                            tpa is situated in Brunda, Bagnan village in Howrah district of
-                            West Bengal. Few of the verities produced by us are parboil,
-                            Miniket, Swarna, Brown Rice, and Non-basmati rice IR-36, IR-
-                            64. Having state of the art milling facilities with modern
-                            machineries producing optimum capacity per day. Healthy
-                            relationship with customers and suppliers in one hand and
-                            quality, pricing, reliability & Flexibility is the main forte of the
-                            company.
+                        <h2>Quality Assurance Laboratory</h2>
+                        <p>The final products undergo dehumidification before packaging to minimize their deterioration related to
                         </p>
+                        <br>
+                        <ol>
+                            <li>Physical conditions like temperature and humidity</li>
+                            <li>Physiological agents like respiration and heating</li>
+                            <li>Biological agents like microorganisms</li>
+                        </ol>
+                        <br>
+                        <p>
+                            The optimum moisture level for grains is approximately 11-12% while for flour is 10-11% at the time of packaging. Our precision analytical in-house laboratories ensure accurate detection of moisture content and temperature of storage to provide optimal shelf life.
+                            Further, periodical quality checks are performed on the stored grains/ flour to keep deterioration in control.
+                        </p>
+
+
 
                     </div>
 
@@ -170,6 +222,22 @@
                         <img src="./assets/img/product-03.jpg" alt="">
                     </div>
                 </div>
+                <div class="product-child-grid" id="p-6">
+                    <div class="product-child-grid-img">
+                        <img src="./assets/img/product-02.jpg" alt="">
+                    </div>
+                    <div class="product-child-grid-content">
+                        <h2>Warehousing</h2>
+                        <p>At times, the storage requirements may extend up to 1 year. We offer an in-house warehousing facility to our customers to allow them to follow the “Just-in-Time” inventory model. It helps them avoid huge investments and maintain a healthy demand-supply balance. Our in-house lab facilities empower us to take rapid action in the unlikely event of quality failure at the occurrence, saving time, money, and returns.<br><br>
+                            Our warehousing facility meets ISO 9001:2008 and FSSAI guidelines for safe storage. The total warehousing area spans 10,00,000 sq. ft. offering a housing capacity of 2, 60, 000 tons of ready-to-transport products
+                        </p>
+
+
+
+                    </div>
+
+                </div>
+
             </div>
 
 
