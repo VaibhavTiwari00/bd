@@ -89,11 +89,12 @@
 
 .section-2-1-text > h4 {
   color: var(--txt-white);
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1.5px;
 }
 
-.section-2-1-text > h2 {
+.section-2-1-text > h2,
+.section-2-2 > h2 {
   margin-top: 3%;
   color: var(--txt-yellow);
   font-family: var(--style-1);
@@ -367,4 +368,72 @@
   margin-top: 2%;
   margin-bottom: 5%;
   font-weight: 300;
+}
+#owl-demo {
+  margin-bottom: 5%;
+  padding: 5%;
+}
+#owl-demo .item {
+  margin: 3px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#owl-demo .item .item-parent {
+  background-color: #26262670;
+  height: 2px;
+  width: 100%;
+  margin-top: 60px;
+  position: relative;
+}
+#owl-demo .item .item-parent .item-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  /* background-color: var(--bg-yellow); */
+  background-color: #1e3c72;
+}
+#owl-demo .item .item-parent .item-child2 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 60px;
+}
+#owl-demo .item .item-parent .item-child2 p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.item-parent2 {
+  margin: 20px 30px;
+  padding: 20px;
+  background-color: #faf7ef;
+  min-height: 120px;
+}
+.item-child > img {
+  width: 60%;
+}
+.item-para {
+  font-size: 15px;
+  line-height: 1.5;
+  word-spacing: 1px;
+  letter-spacing: 0.8px;
+}
+.section-3-2-heading {
+  margin-top: 3%;
+  font-family: var(--style-1);
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
 }

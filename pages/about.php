@@ -13,6 +13,16 @@
 
     <!-- THIS PAGE CSS FILE -->
     <link rel="stylesheet" href="<?= get_file('about.css'); ?>">
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="./Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.css">
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="./Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.theme.css">
+
+
+    <!-- You can use latest version of jQuery  -->
+
+
 
 </head>
 
@@ -70,9 +80,9 @@
 
             <div class="section-2-2">
 
-                <h4>OUR VALUES</h4>
+                <h2>OUR VALUES</h2>
                 <div class="value-parent">
-                    
+
                     <div class="value-child">
                         <div class="value-child-img">
                             <img src="<?= get_img() ?>balance-scale-1.png" alt="">
@@ -202,6 +212,96 @@
             </div>
 
         </section> -->
+
+        <h2 class="section-3-2-heading">Achievements & Milestones</h2>
+
+
+        <div id="owl-demo" class="owl-carousel owl-theme">
+
+            <div class="item">
+                <div class="item-parent">
+                    <div class="item-child"><img src="<?= get_img() ?>star-david.png" alt=""></div>
+                    <div class="item-child2">
+                        <p>1970</p>
+                    </div>
+                </div>
+                <div class="item-parent2">
+                    <div class="">
+                        <p class="item-para">Cold Storage</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-parent">
+                    <div class="item-child"><img src="<?= get_img() ?>star-david.png" alt=""></div>
+                    <div class="item-child2">
+                        <p>2003</p>
+                    </div>
+                </div>
+                <div class="item-parent2">
+                    <div class="">
+                        <p class="item-para">Entered the Food Processing Market,catering to clinets like ITC, JAYA, ANMOL biscuits etc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-parent">
+                    <div class="item-child"><img src="<?= get_img() ?>star-david.png" alt=""></div>
+                    <div class="item-child2">
+                        <p>2006</p>
+                    </div>
+                </div>
+                <div class="item-parent2">
+                    <div class="">
+                        <p class="item-para">Incorporated the B.D. POWER project, to mitigate the high power consumption cost in industries</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-parent">
+                    <div class="item-child"><img src="<?= get_img() ?>star-david.png" alt=""></div>
+                    <div class="item-child2">
+                        <p>2014</p>
+                    </div>
+                </div>
+                <div class="item-parent2">
+                    <div class="">
+                        <p class="item-para">Entered the Real-Estate market with a project of 1012 flats and developing warehouses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-parent">
+                    <div class="item-child"><img src="<?= get_img() ?>star-david.png" alt=""></div>
+                    <div class="item-child2">
+                        <p>2016</p>
+                    </div>
+                </div>
+                <div class="item-parent2">
+                    <div class="">
+                        <p class="item-para">Founded B.D. Infra Packaging Solutions with the idea to back integrate in the Supply Chain. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-parent">
+                    <div class="item-child"><img src="<?= get_img() ?>star-david.png" alt=""></div>
+                    <div class="item-child2">
+                        <p>
+                            Today
+                        </p>
+                    </div>
+                </div>
+                <div class="item-parent2">
+                    <div class="">
+                        <p class="item-para">With a conbined turnover of 250cr, we are one of the biggest suppliers and trusted partners to the West Bengal Govt. & the FCCI.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
     </main>
 
 
@@ -209,8 +309,25 @@
     include_once footer;
     include_once script;
     ?>
-
+    <!-- Include js plugin -->
+    <script src="./Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/assets/js/jquery-1.9.1.min.js"></script>
+    <script src="./Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.js"></script>
     <script src="<?= get_file('about.js'); ?>"></script>
+    <script>
+        $(document).ready(function() {
+
+            $("#owl-demo").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+                items: 3,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+
+            });
+
+        });
+    </script>
 </body>
 
 </html>
