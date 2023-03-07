@@ -44,6 +44,25 @@
             color: #fff;
             opacity: 0.5;
         }
+
+        @media only screen and (max-width: 900px) {
+
+
+            .product-child-grid {
+                grid-template-columns: 1fr;
+                height: unset;
+            }
+
+            .product-child-grid-content>h2 {
+                font-size: 36px;
+            }
+
+            .product-child-grid-content>p,
+            .product-child-grid-content>ol>li {
+                font-size: 1rem;
+
+            }
+        }
     </style>
 </head>
 

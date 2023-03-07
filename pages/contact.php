@@ -28,6 +28,49 @@
             color: #262626;
             overflow: hidden;
         }
+
+        @media screen and (max-width: 900px) {
+            .about-box {
+                width: 90%;
+                height: unset;
+                background-color: var(--bg-yellow);
+                position: absolute;
+                top: 30%;
+                border-radius: 20px;
+                right: 5%;
+                padding: 1%;
+                color: #262626;
+                overflow: hidden;
+            }
+
+            .info-item {
+                width: 100%;
+
+                height: unset;
+
+                justify-content: unset;
+
+                border-bottom: 1px solid white;
+            }
+
+            footer {
+                margin-top: 200px;
+            }
+
+            .main {
+                overflow: unset;
+                width: 100%;
+                height: 100vh;
+            }
+
+            h1 {
+                display: none;
+            }
+
+            .div-container-padding>span {
+                display: none;
+            }
+        }
     </style>
 </head>
 
@@ -46,13 +89,17 @@
                 <span>
                     SCROLL
                 </span>
+
+
+
                 <div class="about-box contact-info">
                     <div class="info-item">
                         <div class="info-1">
-                            <h3 class="company-name">ACME INTRALOG FZCO</h3>
+                            <h3 class="company-name">B D Corporates Pvt Ltd - Rice Mill Units</h3>
                             <address>
-                                Plot S40125, Jebel Ali Free Zone South, Jebel Ali, P.O. Box 3636,
-                                Dubai, United Arab Emirates
+                                Head Office :77, N S Road , 4th Floor , Room No .S 8
+                                Kolkata : 700 001
+                                State :- West Bengal
                             </address>
                         </div>
 
@@ -67,21 +114,21 @@
                             <li>
                                 <a href="#">
                                     <i class="fa-solid fa-phone"></i>
-                                    +971 4 3769 000
+                                    +033-2231-4790
                                 </a>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a href="#">
                                     <i class="fas fa-fax"></i>
-                                    +971 4 3769 000
+                                    Gst no. 
                                 </a>
-                            </li>
+                            </li> -->
 
                             <li>
-                                <a href="#">
+                                <a href="mailto:bd_123corporates@yahoo.com">
                                     <i class="fas fa-at"></i>
-                                    info@bd.com
+                                    bd_123corporates@yahoo.com
                                 </a>
                             </li>
                         </ul>
@@ -89,10 +136,15 @@
 
                     <div class="info-item" style="border-right:0px;">
                         <div class=" info-1">
-                            <h3 class="company-name">ACME INTRALOG FZCO</h3>
+
+
+
+                            <h3 class="company-name">B D Agro Products Private Limited</h3>
                             <address>
-                                Plot S40125, Jebel Ali Free Zone South, Jebel Ali, P.O. Box 3636,
-                                Dubai, United Arab Emirates
+                                Head Office ;- 23A, N.S.Road
+                                2nd Floor, Room No. 12A
+                                Kolkata- 700 001
+                                State :- West Bengal
                             </address>
                         </div>
 
@@ -107,23 +159,23 @@
                             <li>
                                 <a href="#">
                                     <i class="fa-solid fa-phone"></i>
-                                    +971 4 3769 000
+                                    +033-2231-4790
                                 </a>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a href="#">
                                     <i class="fas fa-fax"></i>
                                     +971 4 3769 000
                                 </a>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a href="#">
                                     <i class="fas fa-at"></i>
                                     info@bd.com
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
 

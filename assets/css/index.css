@@ -49,7 +49,7 @@
 
 .slider-img-active-4 {
   visibility: visible;
-  background-image: url(../img/home-4-01.jpeg);
+  background-image: url("../img/home-4-01.jpeg");
   animation: zoom-out 3s;
 }
 
@@ -172,19 +172,19 @@
   }
   .slider:nth-child(2) > .slider-img {
     visibility: visible;
-    background-image: url("https://acme-world.com/static/admin/wp-content/uploads/shutterstock_1203834955-3-1600x975.jpg");
+    background-image: url("../img/home-1.jpeg");
   }
   .slider:nth-child(3) > .slider-img {
     visibility: visible;
-    background-image: url("https://acme-world.com/static/admin/wp-content/uploads/sys-1600x1070.jpg");
+    background-image: url("../img/home-2.jpeg");
   }
   .slider:nth-child(4) > .slider-img {
     visibility: visible;
-    background-image: url("https://acme-world.com/static/admin/wp-content/uploads/20190819_095818-2-1600x816.jpg");
+    background-image: url("../img/home-3.jpeg");
   }
   .slider:nth-child(5) > .slider-img {
     visibility: visible;
-    background-image: url("https://acme-world.com/static/admin/wp-content/uploads/shutterstock_702079621-3-1-1.jpg");
+    background-image: url("../img/home-4-01.jpeg");
   }
   .slider-img > h2 {
     display: none;

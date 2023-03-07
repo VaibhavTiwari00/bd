@@ -115,3 +115,23 @@
   padding-bottom: 5%;
 }
 
+@media only screen and (max-width: 900px) {
+  .about-box {
+    width: 90%;
+    top: 30%;
+    padding: 4%;
+    right: 5%;
+    height: 75%;
+  }
+  .about-box > h2 {
+    font-size: 40px;
+    letter-spacing: 4px;
+  }
+  .product-child-grid {
+    grid-template-columns: 1fr;
+    height: unset;
+  }
+  .product-child-grid-img {
+    grid-row: 1;
+  }
+}

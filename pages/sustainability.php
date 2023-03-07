@@ -15,6 +15,11 @@
     <!-- THIS PAGE CSS FILES -->
     <link rel="stylesheet" href="<?= get_file('products.css'); ?>">
 
+    <style>
+        footer {
+            margin-top: 150px;
+        }
+    </style>
 
 </head>
 
@@ -40,7 +45,7 @@
                     At B.D. Corporate, we make all efforts to adopt more sustainable ways of conducting our business activities. Our dependency on coal for electricity is only 20%, and the rest comes from rice husks. no grid electricity
                 </p>
 
-                <a href="#" class="scroll-txt">Scroll</a>
+                <!-- <a href="#" class="scroll-txt">Scroll</a> -->
 
             </div>
 

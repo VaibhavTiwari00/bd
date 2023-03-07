@@ -37,6 +37,29 @@
             letter-spacing: 2px;
             opacity: 0.8;
         }
+
+        @media screen and (max-width:900px) {
+            .about-box {
+                width: 90%;
+                top: 30%;
+                padding: 4%;
+                right: 5%;
+                height: unset;
+            }
+
+            .about-box>h2 {
+                font-size: 40px;
+                letter-spacing: 4px;
+            }
+
+            .about-box>p {
+                margin: 5% 0 10% 0;
+                font-size: 15px;
+                line-height: 1.5;
+                letter-spacing: 2px;
+                opacity: 0.8;
+            }
+        }
     </style>
 </head>
 
@@ -65,7 +88,7 @@
 
                 </p>
 
-                <a href="#product" class="scroll-txt">Scroll</a>
+                <!-- <a href="#product" class="scroll-txt">Scroll</a> -->
 
             </div>
 

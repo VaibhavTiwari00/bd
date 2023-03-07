@@ -86,7 +86,6 @@ body {
 
 .div-container-padding {
   padding: 0 11.7%;
-  
 }
 
 /* News Section */
@@ -164,4 +163,10 @@ body {
 .news-details > p {
   margin-top: 8%;
   font-size: 23px;
+}
+
+@media screen and (max-width: 900px) {
+  .div-container-padding {
+    padding: 0 5%;
+  }
 }

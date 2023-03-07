@@ -70,3 +70,25 @@ footer > section {
   color: var(--txt-white);
   font-size: 25px;
 }
+@media screen and (max-width: 900px) {
+  footer > section {
+    display: block;
+  }
+  .footer-brand-logo {
+    height: 45px;
+    margin-bottom: 15px;
+  }
+  .footer-main-menu > a {
+    margin-right: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .footer-main-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-main-menu > div {
+    justify-content: space-around;
+  }
+}
