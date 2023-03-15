@@ -1,0 +1,278 @@
+.header {
+  position: absolute;
+}
+.main {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-section {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/about-main-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: zoom-out 1s;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.landing-section > h1 {
+  font-size: 60px;
+  color: var(--txt-white);
+  font-family: var(--style-1);
+  letter-spacing: 5px;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-weight: 500;
+}
+.product-child-grid-content > ul > li {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #fff;
+  opacity: 0.5;
+}
+.landing-section > p {
+  font-size: 20px;
+  /* color: var(--txt-gray); */
+  color: rgb(182, 175, 175);
+  margin-bottom: 10px;
+  width: 40%;
+  z-index: 1;
+}
+
+.landing-section > span {
+  font-size: 15px;
+  color: var(--txt-yellow);
+  font-weight: 600;
+  position: absolute;
+  bottom: 50px;
+  letter-spacing: 2px;
+  z-index: 1;
+}
+
+.landing-section > .bottom-layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 250px;
+  background: linear-gradient(180deg, rgba(38, 38, 38, 0) 0, #262626);
+}
+
+.section-roadmap {
+  background-color: var(--bg-gray-img);
+  height: max-content;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 0;
+  padding-bottom: 10%;
+}
+
+.roadmap {
+  position: relative;
+  margin-top: 7%;
+}
+
+.roadmap > li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.roadmap > li:nth-child(even) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.roadmap-item {
+  width: 34%;
+  position: relative;
+}
+
+.roadmap-item::after {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  height: 27px;
+  width: 27px;
+  border-radius: 100px;
+  content: "";
+  background-color: var(--bg-yellow);
+}
+
+.roadmap-item::before {
+  position: absolute;
+  top: 10.5px;
+  left: 110%;
+  height: 5px;
+  width: 37.2%;
+  content: "";
+  background-color: var(--bg-yellow);
+}
+
+.roadmap > li:nth-child(even) > .roadmap-item::after {
+  left: -50px;
+}
+
+.roadmap > li:nth-child(even) > .roadmap-item::before {
+  left: -47.2%;
+}
+
+.v-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  background-color: var(--bg-yellow);
+}
+
+.roadmap-item > h2 {
+  color: var(--txt-yellow);
+  margin-bottom: 4%;
+  font-family: var(--style-1);
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.roadmap-item > p {
+  color: var(--txt-gray);
+  line-height: 1.5;
+}
+
+.contact-us {
+  background-image: url("https://acme-world.com/static/admin/wp-content/uploads/sans-titre-1-1.jpg");
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-us > h2 {
+  color: var(--txt-white);
+  font-size: 55px;
+  font-family: var(--style-1);
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+/* .form > button {
+    padding: 20px 40px;
+    background-color: var(--bg-yellow);
+    width: max-content;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+} */
+.contact-us > a {
+  background-color: var(--bg-yellow);
+  font-size: 20px;
+  color: #222;
+  font-family: var(--style-1);
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 17px 38px 15px 38px;
+  text-decoration: none;
+  position: relative;
+}
+
+/* .contact-us > a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background-color: var(--txt-yellow);
+  color: var(--txt-yellow);
+  transition: 0.5s;
+  height: 3px;
+  content: " ";
+} */
+.contact-us > a:hover {
+  background-color: #ffc506;
+}
+.products-child-links > ul {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+}
+.product {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#p-1 .product-child-grid-content {
+  padding: 6% 6% 10% 6%;
+  background-color: #2e2e2e;
+}
+@media only screen and (max-width: 900px) {
+  .landing-section > h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+  }
+  .landing-section > p {
+    font-size: 18px;
+    width: 100%;
+  }
+  .contact-us > h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .roadmap {
+    margin-top: 11%;
+  }
+
+  .services-types > p,
+  .dm-services-roadmap > p {
+    font-size: 14px;
+  }
+
+  .dm-services-roadmap > h6 {
+    font-size: 26px;
+  }
+
+  .section-roadmap {
+    margin-top: -24.7px;
+  }
+
+  .v-line {
+    left: 0%;
+    width: 4px;
+  }
+
+  .roadmap > li {
+    justify-content: flex-end;
+    margin-bottom: 10%;
+  }
+
+  .roadmap > li:nth-child(even) > .roadmap-item::before {
+    left: -43%;
+  }
+
+  .roadmap-item {
+    width: 70%;
+  }
+
+  .roadmap > li:nth-child(even) > .roadmap-item::after {
+    left: -14%;
+  }
+
+  .roadmap-item::after {
+    left: -14%;
+  }
+
+  .roadmap-item::before {
+    top: 10.5px;
+    left: -43%;
+    width: 30.2%;
+  }
+}

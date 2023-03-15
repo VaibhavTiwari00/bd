@@ -1,0 +1,94 @@
+footer > section {
+  padding: 3% 5%;
+  background-color: var(--bg-gray-footer);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-brand-logo {
+  height: 60px;
+}
+.social-links {
+  display: none;
+}
+.footer-menu-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  color: var(--txt-white);
+}
+/* .footer-main-menu {
+  padding: 1.5% 0;
+} */
+.footer-main-menu > a {
+  color: var(--txt-gray-footer);
+  font-family: var(--style-1);
+  letter-spacing: 2px;
+  margin-right: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+}
+
+.footer-main-menu > a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background-color: var(--txt-gray-footer);
+  transition: 0.5s;
+  height: 3px;
+  content: "";
+}
+
+.footer-main-menu > a:hover::after {
+  width: 100%;
+}
+
+.footer-main-menu > div {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-main-menu > div > a {
+  color: var(--txt-gray-footer);
+  text-decoration: none;
+  font-family: var(--style-1);
+}
+
+.footer-main-menu > div > a:hover {
+  color: var(--txt-gray);
+}
+
+.social-links > a {
+  color: var(--txt-white);
+  margin-left: 20px;
+}
+
+.social-links > a > i {
+  color: var(--txt-white);
+  font-size: 25px;
+}
+@media screen and (max-width: 900px) {
+  footer > section {
+    display: block;
+  }
+  .footer-brand-logo {
+    height: 45px;
+    margin-bottom: 15px;
+  }
+  .footer-main-menu > a {
+    margin-right: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .footer-main-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-main-menu > div {
+    justify-content: space-around;
+  }
+}
