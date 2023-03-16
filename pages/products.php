@@ -157,7 +157,7 @@
                 </div>
                 <div class="product-child-grid" id="p-7">
                     <div class="product-child-grid-content">
-                        <h2>FRK</h2>
+                        <h2>FORTIFIED RICE KERNELS</h2>
 
                         <p>Fortified Rice Kernels provide an excellent solution to consuming broken rice along with alleviating nutritional deficiencies in the masses. FRK is produced by milling the broken rice and mixing the flour with micronutrient-enriched pre-mixes, followed by extrusion to reconstitute rice kernels. Our facilities follow international guidelines laid by PATH and GAIN (Global Alliance for Improved Nutrition) which allows us to customize the FRK as per the client’s requirements.
                             We are, also, the trusted partner of the FCI and the West Bengal government for the supply of fortified rice kernels (FRK).
