@@ -60,7 +60,7 @@
 
                 <div class="section-2-1-text">
 
-                    <h4>About US</h4>
+                    <!-- <h4>About US</h4> -->
                     <h2>A BIT MORE ABOUT US</h2>
                     <p style="color:#fff;letter-spacing: 1.1px;">“It is difficult, but not impossible, to conduct strictly honest business.” – <b>Mahatma Gandhi.</b></p>
                     <p>
