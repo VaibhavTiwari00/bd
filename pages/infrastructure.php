@@ -84,7 +84,7 @@
 
 
                 <p>
-                    Since the 1980s, B.D. Corporates has been delivering value to its clients by favouring quality and timely delivery. It was only possible because of our backward integration in the supply chain.
+                    Since the 1970s, B.D. Corporates has been delivering value to its clients by favouring quality and timely delivery. It was only possible because of our backward integration in the supply chain.
                 </p>
 
                 <a href="#product" class="scroll-txt">Scroll</a>
@@ -168,16 +168,16 @@
                                 Brown
                             </li>
                             <li>
-                    <!-- 5. -->Non-basmati IR-36 and IR-64
+                                <!-- 5. -->Non-basmati IR-36 and IR-64
                             </li>
                         </ol>
                         <br>
                         <p>
                             <!-- We follow rigorous pre-processing of the incoming paddy to remove contaminants like weeds, straw, soil, etc. before hulling. This ensures the optimum quality of brown rice after de-husking. The separated husk is routed to our in-house power plant. Brown rice is either packed or sent for further processing to produce white rice by removing bran and germ. -->
 
-                        We are committed to quality, precision, pricing, reliability, and flexibility. The transparency of our processing allows us to maintain a healthy relationship with our suppliers and customers.
-                        <br>
-                        All our processes are sustainable with complete water treatment and recycling based on zero-liquid discharge practices and producing our electricity from the waste lignocellulosic materials (rice husk and wheat bran).
+                            We are committed to quality, precision, pricing, reliability, and flexibility. The transparency of our processing allows us to maintain a healthy relationship with our suppliers and customers.
+                            <br>
+                            All our processes are sustainable with complete water treatment and recycling based on zero-liquid discharge practices and producing our electricity from the waste lignocellulosic materials (rice husk and wheat bran).
 
                         </p>
 
@@ -252,15 +252,15 @@
                     <div class="product-child-grid-content">
                         <h2>Warehousing</h2>
                         <p>At times, the storage requirements may extend up to 1 year. We offer an in-house warehousing facility to our customers to allow them to follow the “Just-in-Time” inventory model. It helps them avoid huge investments and maintain a healthy demand-supply balance. Our in-house lab facilities empower us to take rapid action in the unlikely event of quality failure at the occurrence, saving time, money, and returns.<br><br>
-                        Our warehousing facility meets ISO 9001:2008 and FSSAI guidelines for safe storage. The total warehousing area spans 10,00,000 sq. ft. offering a housing capacity of 2, 60, 000 tons of ready-to-transport products
-                    </p>
-                    
-                    
-                    
-                </div>
-                <div class="product-child-grid-img">
-                    <img src="./assets/img/product-02.jpg" alt="">
-                </div>
+                            Our warehousing facility meets ISO 9001:2008 and FSSAI guidelines for safe storage. The total warehousing area spans 10,00,000 sq. ft. offering a housing capacity of 2, 60, 000 tons of ready-to-transport products
+                        </p>
+
+
+
+                    </div>
+                    <div class="product-child-grid-img">
+                        <img src="./assets/img/product-02.jpg" alt="">
+                    </div>
 
                 </div>
 

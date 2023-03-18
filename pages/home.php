@@ -38,7 +38,7 @@
 
                 <div class="slider-img slider-img-active-1">
                     <h2>
-                        Lorem ipsum dolor sit.
+                        Trusted German Technologies to Serve You the Best Quality with Precision
                     </h2>
                 </div>
 
@@ -55,7 +55,7 @@
 
             <div class="slider">
                 <div class="slider-img ">
-                    <h2>heading 4</h2>
+                    <h2>Products Designed for a Healthy You!</h2>
                 </div>
                 <div class="slider-item-container">
                     <div class="slide-panal"></div>
@@ -68,7 +68,7 @@
 
             <div class="slider">
                 <div class="slider-img">
-                    <h2>heading </h2>
+                    <h2>Let’s Fortify and Fight the Hidden Hunger</h2>
                 </div>
                 <div class="slider-item-container">
                     <div class="slide-panal sp-3"></div>
@@ -82,7 +82,7 @@
 
             <div class="slider">
                 <div class="slider-img ">
-                    <h2>Lorem ipsum dolor sit</h2>
+                    <h2>We Are Here For You</h2>
                 </div>
                 <div class="slider-item-container">
                     <div class="slide-panal"></div>

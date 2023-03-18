@@ -43,7 +43,7 @@
 
 .slider-img-active-3 {
   visibility: visible;
-  background-image: url("../img/home-3.jpeg");
+  background-image: url("../img/benefits-of-wholegrains-1200x628-facebook-1200x628-1.jpg");
   animation: zoom-out 1s;
 }
 
@@ -54,11 +54,11 @@
 }
 
 .slider-img > h2 {
-  font-size: 60px;
+  font-size: 50px;
   color: var(--txt-yellow);
   font-family: var(--style-1);
   letter-spacing: 7px;
-  width: 45%;
+  width: 85%;
   text-align: center;
 }
 

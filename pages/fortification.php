@@ -69,7 +69,7 @@
 
     <main style="margin-bottom:50vh">
         <section class="about-partners">
-            <img src="./assets/img/home-3.jpeg" alt="">
+            <img src="./assets/img/benefits-of-wholegrains-1200x628-facebook-1200x628-1.jpg" alt="">
 
             <div class="about-box">
                 <div class="about-box-svg">
@@ -83,7 +83,7 @@
 
                 <p>
                     Healthy food is the right of every citizen. Unfortunately, every 2nd Indian man and woman suffers from anemia and the 3rd child faces stunted growth. Fortification is the process of adding FSSAI-prescribed micronutrients (Iron, Folic Acid, Vitamin B12) to commonly consumed staples like rice, wheat, milk, and salt. Fortification of rice offers a sustainable solution to “hidden hunger” as rice is consumed by 65% of the Indian population.
-                    Considering the benefits, the GoI has mandated the supply of fortified rice and wheat through government schemes across the country. We are the trusted partner of the FCI and the West Bengal government for the supply of fortified rice kernels (FRK), fortified wheat, and micronutrient-enriched pre-mixes.
+                    <br> Considering the benefits, the GoI has mandated the supply of fortified rice and wheat through government schemes across the country. We are the trusted partner of the FCI and the West Bengal government for the supply of fortified rice kernels (FRK), fortified wheat, and micronutrient-enriched pre-mixes.<br>
                     Our facilities are based on international guidelines laid by PATH and GAIN (Global Alliance for Improved Nutrition) which allows us to customize the FRKs as per the client’s requirements.
 
                 </p>

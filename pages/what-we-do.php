@@ -50,13 +50,11 @@
             <h6>Our Services</h6>
             <div class="products-child-links">
                  <ul>
-                    <li><a href="#">Rice Processing</a></li>
-                    <li><a href="#">Floor Processing</a></li>
+
                     <li><a href="#p-1">Private labeling</a></li>
-                    <li><a href="#">Government Tenders</a></li>
+
                     <li><a href="#p-3">Warehousing</a></li>
-                    <li><a href="#">Sugar & Rice Trading</a></li>
-                    <li><a href="#">Fortification</a></li>
+
                     <li><a href="#p-2"> Trusted Government Contractor</a></li>
 
                 </ul>

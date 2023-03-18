@@ -144,7 +144,7 @@
 }
 
 .section-3 {
-  margin-top: 25%;
+  margin-top: 5%;
   margin-bottom: 10%;
 
   width: 100%;
@@ -152,7 +152,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
 }
 
 .section-3 > img {
@@ -169,9 +169,9 @@
 }
 
 .section-3-1 {
-  position: absolute;
+  /* position: absolute;
   top: -23%;
-  left: 12%;
+  left: 12%; */
 }
 
 .section-3-1 > h4 {
@@ -438,7 +438,43 @@
   width: 100%;
   text-align: center;
 }
+
+.container {
+  background-color: #fff;
+  margin: 9%;
+  text-align: center;
+}
+.container .images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 40px;
+  place-items: center;
+  grid-row-gap: 42px;
+}
+.container .images img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+.container .images p {
+  font-size: 16px;
+  margin-top: 3%;
+  letter-spacing: 1px;
+  z-index: 1;
+  margin-bottom: 5%;
+  font-weight: 400;
+}
+.phil-para {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
 @media screen and (max-width: 900px) {
+  .container .images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .phil-para {
+    font-size: 16px;
+  }
   .landing-section > h1 {
     font-size: 35px;
     letter-spacing: 4px;
@@ -479,7 +515,7 @@
     padding-bottom: 10%;
   }
   .section-3 {
-    margin-top: 32%;
+    padding: 4%;
   }
   .section-3-1 > h2 {
     letter-spacing: 4px;

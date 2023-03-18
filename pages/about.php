@@ -56,7 +56,7 @@
 
         <section class="div-container-padding section-2">
             <div class="section-2-1">
-                <img src="./assets/img/about-us-our-value.jpg" class="out-value-img" />
+                <img src="<?= get_img() ?>about-us-our-value.jpg" class="out-value-img" />
 
                 <div class="section-2-1-text">
 
@@ -65,7 +65,6 @@
                     <p style="color:#fff;letter-spacing: 1.1px;">“It is difficult, but not impossible, to conduct strictly honest business.” – <b>Mahatma Gandhi.</b></p>
                     <p>
                         B.D. Corporates is a leading contract manufacturer in India serving quality and taste since 1970. We aim to deliver nourishment to our countrymen at affordable prices through our cherished B2B channel partners.
-                        make a mark of their own.
                     </p>
                     <p>
                         We are preferred suppliers of bakery all-purpose flour, maida, sooji, bran oil, etc. for industry majors like ITC, Jaya, and Anmol Biscuits. Today, the group is also the trusted supplier to the West Bengal government and The Food Corporation of India (FCI) for fortified rice kernels (FRK), rice, and wheat flour.
@@ -144,11 +143,16 @@
 
             <div class="section-3-1">
 
-                <h4>OUR PHILOSOPHY</h4>
+                <h2>OUR PHILOSOPHY</h2><br>
+                 <p class="phil-para">*Parallel procurement to ensure competitive pricing</p><br>
+                 <p class="phil-para">*4-step quality checks to ensure only the best supply</p><br>
+                 <p class="phil-para">*In-house packaging and integrated supply chain for self-reliance</p><br>
+                 <p class="phil-para">*Focus on supporting the growth of regional retail brands</p><br>
+
                 <h2>WE BELIEVE IN SUPPLY CHAIN INTEGRATION</h2>
 
             </div>
-            <img src="./assets/img/about-us-our-philo.jpg" alt="">
+            <img src="<?= get_img() ?>about-us-our-philo.jpg" alt="">
             <p>
                 We believe that by bringing major supply chain processes in-house, we can reduce our reliance on external factors and deliver to our clients more efficiently and effectively. 
 
@@ -158,7 +162,7 @@
         </section>
 
         <!-- <section class="about-partners">
-            <img src="./assets/img/about-partners.jpg" alt="">
+            <img src="<?= get_img() ?>about-partners.jpg" alt="">
 
             <div class="about-box">
 
@@ -168,9 +172,9 @@
 
                 <div class="brand-list">
 
-                    <img src="./assets/img/alfanumatic-dark.png" alt="">
-                    <img src="./assets/img/axelent-01-copy-500x441.png" alt="">
-                    <img src="./assets/img/dotec-dark.png" alt="">
+                    <img src="<?= get_img() ?>alfanumatic-dark.png" alt="">
+                    <img src="<?= get_img() ?>axelent-01-copy-500x441.png" alt="">
+                    <img src="<?= get_img() ?>dotec-dark.png" alt="">
                 </div>
 
                 <p>
@@ -195,14 +199,14 @@
 
 
             <div class="new-item-container">
-                <div class="item-news" style="background-image: url('./assets/img/about-news-1.jpeg')">
+                <div class="item-news" style="background-image: url('<?= get_img() ?>about-news-1.jpeg')">
                     <div class=" news-details">
                         <span>Decembre 31, 2021</span>
                         <p>Acme follows the new UAE working week.</p>
                     </div>
                 </div>
 
-                <div class="item-news" style="background-image: url('./assets/img/about-news-2.png')">
+                <div class="item-news" style="background-image: url('<?= get_img() ?>about-news-2.png')">
                     <div class="news-details">
                         <span>Decembre 31, 2021</span>
                         <p>Acme follows the new UAE working week.</p>
@@ -240,7 +244,7 @@
                 </div>
                 <div class="item-parent2">
                     <div class="">
-                        <p class="item-para">Entered the Food Processing Market,catering to clinets like ITC, JAYA, ANMOL biscuits etc.</p>
+                        <p class="item-para">Entered the Food Processing Market, catering to clients like ITC, JAYA, ANMOL biscuits etc.</p>
                     </div>
                 </div>
             </div>
@@ -302,6 +306,37 @@
             </div>
 
         </div>
+
+        <div class="container">
+            <h3 class="section-3-2-heading">Our Partner</h3>
+            <div class=" images">
+                <div class="img">
+                    <img src="<?= get_img() ?>anmol-logo-png-removebg-preview.png">
+                    <p>Anmol Biscuits</p>
+                </div>
+
+                <div class="img">
+                    <img src="<?= get_img() ?>fci-logo-removebg-preview.png" alt="">
+                    <p>FCI</p>
+                </div>
+
+                <div class="img">
+                    <img src="<?= get_img() ?>IMG_20230318_113655.png" alt="">
+                    <p>West Bengal Government</p>
+                </div>
+
+                <div class="img">
+                    <img src="<?= get_img() ?>IMG_20230318_113710.png" alt="">
+                    <p>Jaya</p>
+                </div>
+
+                <div class="img">
+                    <img src="<?= get_img() ?>ITC_Limited_Logo-removebg-preview.png" alt="">
+                    <p>ITC </p>
+                </div>
+
+            </div>
+        </div>
     </main>
 
 
@@ -317,9 +352,9 @@
         $(document).ready(function() {
 
             $("#owl-demo").owlCarousel({
-
-                autoPlay: 3000, //Set AutoPlay to 3 seconds
-
+                autoPlay: true,
+                autoPlay: 3800, //Set AutoPlay to 3 seconds
+                autoplayHoverPause: true,
                 items: 3,
                 itemsDesktop: [1199, 3],
                 itemsDesktopSmall: [979, 3]
