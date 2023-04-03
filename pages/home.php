@@ -88,7 +88,7 @@
                     <div class="slide-panal"></div>
                     <div class="slider-items">
                         <img src="./assets/img/sustainability-icon.png" alt="" srcset="">
-                        <a href="<?= home_path() ?>contact">Contact Us</a>
+                        <a href="<?= home_path() ?>sustainability">Sustainability</a>
                     </div>
                 </div>
             </div>

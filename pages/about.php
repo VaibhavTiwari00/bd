@@ -56,8 +56,8 @@
 
         <section class="div-container-padding section-2">
             <div class="section-2-1">
-                <img src="<?= get_img() ?>about-us-our-value.jpg" class="out-value-img" />
-
+                <!-- <img src="<?= get_img() ?>about-us-our-value.jpg" class="out-value-img" /> -->
+                <img src="<?= get_img() ?>about-bd.jpeg" class="out-value-img" />
                 <div class="section-2-1-text">
 
                     <!-- <h4>About US</h4> -->
@@ -144,15 +144,15 @@
             <div class="section-3-1">
 
                 <h2>OUR PHILOSOPHY</h2><br>
-                 <p class="phil-para">*Parallel procurement to ensure competitive pricing</p><br>
-                 <p class="phil-para">*4-step quality checks to ensure only the best supply</p><br>
-                 <p class="phil-para">*In-house packaging and integrated supply chain for self-reliance</p><br>
-                 <p class="phil-para">*Focus on supporting the growth of regional retail brands</p><br>
+                <p class="phil-para">*Parallel procurement to ensure competitive pricing</p><br>
+                <p class="phil-para">*4-step quality checks to ensure only the best supply</p><br>
+                <p class="phil-para">*In-house packaging and integrated supply chain for self-reliance</p><br>
+                <p class="phil-para">*Focus on supporting the growth of regional retail brands</p><br>
 
                 <h2>WE BELIEVE IN SUPPLY CHAIN INTEGRATION</h2>
 
             </div>
-            <img src="<?= get_img() ?>about-us-our-philo.jpg" alt="">
+            <img src="<?= get_img() ?>supply-chain.jpg" alt="supply-chain">
             <p>
                 We believe that by bringing major supply chain processes in-house, we can reduce our reliance on external factors and deliver to our clients more efficiently and effectively. 
 
@@ -308,7 +308,7 @@
         </div>
 
         <div class="container">
-            <h3 class="section-3-2-heading">Our Partner</h3>
+            <h3 class="section-3-2-heading">Our Partners</h3>
             <div class=" images">
                 <div class="img">
                     <img src="<?= get_img() ?>anmol-logo-png-removebg-preview.png">

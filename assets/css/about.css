@@ -62,7 +62,7 @@
 .section-2 {
   background-color: var(--bg-gray-img);
   background-image: url("../../assets/img/about-us-our-location.jpg");
-  height: 250vh;
+  height: 230vh;
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -78,6 +78,7 @@
 
 .out-value-img {
   width: 100%;
+  margin: auto auto;
 }
 
 .section-2-1-text {

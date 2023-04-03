@@ -113,7 +113,7 @@
             <h6>Our Facilities</h6>
             <div class="products-child-links">
                 <ul>
-                    <li><a href="#p-1">Floor mill division</a></li>
+                    <li><a href="#p-1">Flour mill division</a></li>
                     <li><a href="#p-2">Rice mill division</a></li>
                     <li><a href="#p-3">Packaging Unit</a></li>
                     <li><a href="#p-4">Lab</a></li>
@@ -125,7 +125,7 @@
             <div class="products-child">
                 <div class="product-child-grid" id="p-1">
                     <div class="product-child-grid-content">
-                        <h2>Floor mill division</h2>
+                        <h2>Flour mill division</h2>
                         <p>Our state-of-the-art flour mill comprises German-imported technology. We have a capacity of processing 1,00,000 tons per annum of flour in various districts of West Bengal. After passing the quality checks, wheat is processed to remove the inner endosperm from the outer bran coat with precision, to avoid its contamination. Our notable product portfolio includes atta, maida, sooji, and wheat bran.
                             We have been in the flour business since 2004 building a loyal clientele owing to our consistent quality and uninterrupted supply chain.
                             <br><br>
@@ -143,12 +143,12 @@
 
                     </div>
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-01.jpg" alt="">
+                        <img src="./assets/img/flour-mill.jpeg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-2">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/ricemill.jpeg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Rice mill division</h2>
@@ -202,12 +202,12 @@
                         </ol>
                     </div>
                     <div class=" product-child-grid-img">
-                        <img src="./assets/img/product-03.jpg" alt="">
+                        <img src="./assets/img/packagingUnit-min.jpg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-4">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/quality-assurance.jpeg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Quality Assurance Laboratory</h2>
@@ -259,7 +259,7 @@
 
                     </div>
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/warehousing.jpeg" alt="">
                     </div>
 
                 </div>

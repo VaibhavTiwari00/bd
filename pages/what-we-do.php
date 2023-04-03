@@ -79,12 +79,12 @@
 
                     </div>
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-01.jpg" alt="">
+                        <img src="./assets/img/private-labeling.jpg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-2">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/trusted.jpg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2> Trusted Government Contractor</h2>
@@ -102,7 +102,7 @@
                         <p>B.D. Corporates provide strategic warehousing facilities in West Bengal, Orissa, and Rajasthan covering pan-India supplies efficiently and timely. The total area spans 10,00,000 sq. ft. offering a housing capacity of 2, 60, 000 tons. The facility meets ISO 9001:2008 and FSSAI guidelines for safe storage.</p>
                     </div>
                     <div class=" product-child-grid-img">
-                        <img src="./assets/img/product-03.jpg" alt="">
+                        <img src="./assets/img/warehousing.jpeg" alt="">
                     </div>
                 </div>
 

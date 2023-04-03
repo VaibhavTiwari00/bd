@@ -165,7 +165,7 @@ body {
   font-size: 23px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .div-container-padding {
     padding: 0 5%;
   }

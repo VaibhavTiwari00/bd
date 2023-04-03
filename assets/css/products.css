@@ -116,6 +116,10 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .about-partners > img {
+    object-fit: cover;
+  }
+
   .about-box {
     width: 90%;
     top: 30%;

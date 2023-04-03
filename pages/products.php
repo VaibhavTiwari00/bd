@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<?= get_file('products.css'); ?>">
     <!-- View Products section css  -->
     <link rel="stylesheet" href="<?= get_file('view_product_show.css'); ?>">
-    
+
 
 </head>
 
@@ -26,7 +26,8 @@
 
     <main>
         <section class="about-partners">
-            <img src="./assets/img/about-us-our-philo.jpg" alt="">
+            <!-- <img src="./assets/img/about-us-our-philo.jpg" alt=""> -->
+            <img src="./assets/img/home-2.jpeg" alt="">
 
             <div class="about-box">
                 <div class="about-box-svg">
@@ -47,7 +48,7 @@
             </div>
 
         </section>
-        <section class="who-they">
+        <!-- <section class="who-they">
             <div class="pra-container">
                 <h2>Made by B.D Corporates</h2>
                 <p>We are happy to inform that our new facility in the Jebel Ali Free Zone is up and running and capable of providing complicated automation solutions swiftly in order to satisfy regional demands.
@@ -60,7 +61,7 @@
 
             </p>
 
-        </section>
+        </section> -->
 
         <!-- product section start -->
         <section class="div-container-padding product mb-5" id="product">
@@ -90,12 +91,12 @@
 
                     </div>
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-01.jpg" alt="">
+                        <img src="./assets/img/image-000-min.jpg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-2">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/brown-rice.jpg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Brown Rice</h2>
@@ -114,12 +115,12 @@
 
                     </div>
                     <div class=" product-child-grid-img">
-                        <img src="./assets/img/product-03.jpg" alt="">
+                        <img src="./assets/img/rice-flour-product.jpg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-4">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/bran.jpg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Bran</h2>
@@ -139,12 +140,12 @@
                         <p>We are a major supplier of bran oil which is a healthy substitute for traditional cooking oils. It contains zero trans-fats and high concentrations of antioxidants like oryzanol which is an elixir for the heart. </p>
                     </div>
                     <div class=" product-child-grid-img">
-                        <img src="./assets/img/product-03.jpg" alt="">
+                        <img src="./assets/img/bran-oil.jpg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-6">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/fortified-rice.jpg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Fortified Rice</h2>
@@ -164,12 +165,12 @@
                         </p>
                     </div>
                     <div class=" product-child-grid-img">
-                        <img src="./assets/img/product-03.jpg" alt="">
+                        <img src="./assets/img/rice-kernels.jpg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-8">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/wheat-flour.jpg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Wheat Flour</h2>
@@ -187,7 +188,7 @@
                         <p>When it comes to health, there shouldn’t be any compromises. To deal with the nutritional deficiency of the major Indian population, we are a leading manufacturer and supplier of 3 micronutrients fortified wheat flour. We offer customized contract manufacturing and private labeling solutions at cost-effective pricing and a hassle-free supply chain.</p>
                     </div>
                     <div class=" product-child-grid-img">
-                        <img src="./assets/img/product-03.jpg" alt="">
+                        <img src="./assets/img/foritfied-wheat-flour.jpg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-10">
@@ -210,12 +211,12 @@
                         <p>As a firm believer in supplying quality, we offer 100% authentic sooji without any added color or preservatives. Our product has high water absorption capacities to make every dish tasty and healthy.</p>
                     </div>
                     <div class=" product-child-grid-img">
-                        <img src="./assets/img/product-03.jpg" alt="">
+                        <img src="./assets/img/sooji.jpg" alt="">
                     </div>
                 </div>
                 <div class="product-child-grid" id="p-12">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <img src="./assets/img/bakery.jpg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Bakery All-Purpose Flour</h2>
@@ -263,7 +264,7 @@
         </section> -->
         <!-- news section end -->
 
-    
+
     </main>
 
 
@@ -273,7 +274,7 @@
     ?>
 
     <script src="<?= get_file('about.js'); ?>"></script>
-    
+
 </body>
 
 </html>
