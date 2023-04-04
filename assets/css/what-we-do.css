@@ -147,13 +147,16 @@
 }
 
 .contact-us {
-  background-image: url("https://acme-world.com/static/admin/wp-content/uploads/sans-titre-1-1.jpg");
+  background-image: url("../img/HomeTabletSlide0.jpg");
   height: 60vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contact-us > h2 {

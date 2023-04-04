@@ -23,7 +23,7 @@
     <style>
         .about-box {
             width: 50%;
-            height: 100%;
+            height: max-content;
             background-color: var(--bg-yellow);
             position: absolute;
             top: 27%;
@@ -41,7 +41,7 @@
             opacity: 0.8;
         }
 
-        @media screen and (max-width:900px) {
+        @media screen and (max-width:1200px) {
             .about-box {
                 width: 90%;
                 top: 30%;
@@ -49,6 +49,10 @@
                 right: 5%;
                 height: unset;
             }
+        }
+
+        @media screen and (max-width:900px) {
+
 
             .about-box>h2 {
                 font-size: 40px;
@@ -60,7 +64,7 @@
                 font-size: 15px;
                 line-height: 1.5;
                 letter-spacing: 2px;
-                opacity: 0.8;
+                opacity: 1;
             }
         }
     </style>
@@ -86,7 +90,7 @@
 
 
                 <p>
-                    Mr. Rajendra Agarwal, a mechanical (power) engineer, understood the magnifying importance of sustainable industrial processes as early as 2006. He set up our in-house power generation boiler plant at Kolkata to produce our own electricity using the byproduct, rice husk. Currently, we have scaled to a 4 MW power generation plant ensuring “waste-to-energy” conversion along with supporting process economics.<br><br>
+                    Our Directors understood the magnifying importance of sustainable industrial processes as early as 2006. They set up our in-house power generation boiler plant at Kolkata to produce our own electricity using the byproduct, rice husk. Currently, we have scaled to a 4 MW power generation plant ensuring “waste-to-energy” conversion along with supporting process economics.<br><br>
                     We ensure environmental compliance through our zero-liquid discharge (ZLD) technologies. Our packaging products adhere to the Food Safety and Standards (Packaging and Labeling) Regulations 2011, and BIS.
                     Our machinery and warehousing comply with the industrial energy efficiency standards laid by the Bureau of Energy Efficiency of India, 2018.
                     <!-- Giving Hope and Life to the Abandoned Girl Child of West Bengal.

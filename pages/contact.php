@@ -112,7 +112,13 @@
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="tel:+91-9145821919">
+                                    <i class="fa-solid fa-phone"></i>
+                                    +91-9145821919
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+033-2231-4790">
                                     <i class="fa-solid fa-phone"></i>
                                     +033-2231-4790
                                 </a>
@@ -157,7 +163,13 @@
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="tel:+91-9145821919">
+                                    <i class="fa-solid fa-phone"></i>
+                                    +91-9145821919
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+033-2231-4790">
                                     <i class="fa-solid fa-phone"></i>
                                     +033-2231-4790
                                 </a>

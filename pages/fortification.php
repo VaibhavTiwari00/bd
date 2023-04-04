@@ -20,7 +20,7 @@
     <style>
         .about-box {
             width: 50%;
-            height: 100%;
+            height: max-content;
             background-color: var(--bg-yellow);
             position: absolute;
             top: 27%;
@@ -46,6 +46,10 @@
                 right: 5%;
                 height: unset;
             }
+        }
+
+        @media screen and (max-width:900px) {
+
 
             .about-box>h2 {
                 font-size: 40px;
@@ -57,7 +61,7 @@
                 font-size: 15px;
                 line-height: 1.5;
                 letter-spacing: 2px;
-                opacity: 0.8;
+                opacity: 1;
             }
         }
     </style>
@@ -83,7 +87,7 @@
 
                 <p>
                     Healthy food is the right of every citizen. Unfortunately, every 2nd Indian man and woman suffers from anemia and the 3rd child faces stunted growth. Fortification is the process of adding FSSAI-prescribed micronutrients (Iron, Folic Acid, Vitamin B12) to commonly consumed staples like rice, wheat, milk, and salt. Fortification of rice offers a sustainable solution to “hidden hunger” as rice is consumed by 65% of the Indian population.
-                    <br> Considering the benefits, the GoI has mandated the supply of fortified rice and wheat through government schemes across the country. We are the trusted partner of the FCI and the West Bengal government for the supply of fortified rice kernels (FRK), fortified wheat, and micronutrient-enriched pre-mixes.<br>
+                    <br><br> Considering the benefits, the GoI has mandated the supply of fortified rice and wheat through government schemes across the country. We are the trusted partner of the FCI and the West Bengal government for the supply of fortified rice kernels (FRK), fortified wheat, and micronutrient-enriched pre-mixes.<br><br>
                     Our facilities are based on international guidelines laid by PATH and GAIN (Global Alliance for Improved Nutrition) which allows us to customize the FRKs as per the client’s requirements.
 
                 </p>

@@ -18,6 +18,31 @@
     <link rel="stylesheet" href="<?= get_file('view_product_show.css'); ?>">
 
 
+    <style>
+        .about-box {
+
+            padding: 5% 3% 8% 4%;
+
+        }
+
+        .about-box>p {
+            margin: 5% 0 15% 0;
+        }
+
+        @media screen and (max-width:1200px) {
+            .about-box>p {
+                font-size: 15px;
+            }
+
+
+        }
+
+        @media screen and (max-width:900px) {
+            .about-partners {
+                height: 600px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -40,10 +65,9 @@
 
 
                 <p>
-                    In the United Arab Emirates, ACME develops, manufactures, and puts into operation intralogistics systems such pallet, tote, and case conveyors, pallet stacker cranes, miniload cranes, as well as specially designed devices.
+                    Since 1970, BD Corporates have served as a dependable contract manufacturer in India, providing a variety of goods such maida, sooji, bakery flour, bran oil, and more. We ensure that we only give the best to our B2B channel partners and end users by being committed to quality and continuously learning from Japanese management ideas.
                 </p>
 
-                <a href="#product" class="scroll-txt">Scroll</a>
 
             </div>
 
@@ -193,7 +217,8 @@
                 </div>
                 <div class="product-child-grid" id="p-10">
                     <div class="product-child-grid-img">
-                        <img src="./assets/img/product-02.jpg" alt="">
+                        <!-- <img src="./assets/img/product-02.jpg" alt=""> -->
+                        <img src="https://img2.exportersindia.com/product_images/bc-small/2020/12/6527104/wheat-flour-maida-1608529703-5662648.jpeg" alt="">
                     </div>
                     <div class="product-child-grid-content">
                         <h2>Maida</h2>

@@ -62,6 +62,11 @@
                 font-size: 1rem;
 
             }
+
+            .about-partners {
+                height: 500px;
+
+            }
         }
     </style>
 </head>
