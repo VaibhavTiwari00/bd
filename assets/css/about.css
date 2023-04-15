@@ -32,12 +32,14 @@
 }
 
 .landing-section > p {
-  font-size: 20px;
-  /* color: var(--txt-gray); */
-  color: rgb(182, 175, 175);
-  margin-bottom: 10px;
-  width: 40%;
-  z-index: 1;
+    font-size: 19px;
+    /* color: var(--txt-gray); */
+    color: rgb(182, 175, 175);
+    margin-bottom: 10px;
+    width: 40%;
+    z-index: 1;
+    letter-spacing: 0.7px; 
+     line-height: 1.4;
 }
 
 .landing-section > span {
@@ -62,7 +64,7 @@
 .section-2 {
   background-color: var(--bg-gray-img);
   background-image: url("../../assets/img/about-us-our-location.jpg");
-  height: 230vh;
+  height: 215vh;
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -73,7 +75,7 @@
   padding: 7% 0;
   display: grid;
   grid-template-columns: 49.7% 1fr;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .out-value-img {
@@ -106,12 +108,14 @@
 }
 
 .section-2-1-text > p {
-  font-size: 18px;
-  color: var(--txt-gray);
-  margin-bottom: 10px;
-  z-index: 1;
-  margin: 3% 0;
-  font-weight: 300;
+    font-size: 19px;
+    color: var(--txt-gray);
+    margin-bottom: 10px;
+    z-index: 1;
+    margin: 3% 0;
+    letter-spacing: 0.7px;
+    line-height: 1.4;
+    font-weight: 300;
 }
 
 .section-2-2 {
@@ -146,7 +150,7 @@
 
 .section-3 {
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 
   width: 100%;
   display: flex;
@@ -181,12 +185,14 @@
 }
 
 .section-3-1 > h2 {
-  margin-top: 3%;
-  font-family: var(--style-1);
-  letter-spacing: 5px;
-  font-weight: 300;
-  font-size: 55px;
-  width: 100%;
+  margin-top: 0%;
+    font-family: var(--style-1);
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-size: 55px;
+}
+#we_believe{
+  margin-top:5%;
 }
 
 .about-partners {
@@ -358,22 +364,24 @@
 }
 .value-child-content > h4 {
   color: var(--txt-white);
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 1.5px;
 }
 .value-child-content > p {
-  font-size: 16px;
+   font-size: 19px;
   color: var(--txt-gray);
   margin-bottom: 10px;
-  letter-spacing: 1px;
   z-index: 1;
-  margin-top: 2%;
-  margin-bottom: 5%;
+  margin-top: 2%;    letter-spacing: 0.7px;
+  margin-bottom: 5%; line-height: 1.4;
   font-weight: 300;
+  transition : 0.5s;
+}.value-child-content > p:hover {
+ color:#fff;
 }
 #owl-demo {
   margin-bottom: 5%;
-  padding: 5%;
+  padding: 0 5%;
 }
 #owl-demo .item {
   margin: 3px;
@@ -425,7 +433,7 @@
   width: 60%;
 }
 .item-para {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   word-spacing: 1px;
   letter-spacing: 0.8px;
@@ -442,7 +450,7 @@
 
 .container {
   background-color: #fff;
-  margin: 9%;
+  padding:  0 7% 9% 9%;
   text-align: center;
 }
 .container .images {
@@ -458,15 +466,15 @@
   object-fit: contain;
 }
 .container .images p {
-  font-size: 16px;
-  margin-top: 3%;
+  font-size: 20px;
+  margin-top: 4%;
   letter-spacing: 1px;
   z-index: 1;
   margin-bottom: 5%;
   font-weight: 400;
 }
 .phil-para {
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 900px) {
@@ -500,9 +508,7 @@
   .section-2-1-text > h4 {
     font-size: 18px;
   }
-  .section-2-1-text > p {
-    font-size: 16px;
-  }
+   
   .value-parent {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
@@ -518,17 +524,31 @@
   .section-3 {
     padding: 4%;
   }
-  .section-3-1 > h2 {
+  .section-3-1 > h2,.section-3-2-heading {
     letter-spacing: 4px;
     font-size: 35px;
-  }
+  } 
   .section-3 > img {
-    width: 76%;
-    margin: 36px auto 20px auto;
-  }
+    width: 100%;
+    margin: 28px auto 20px auto;
+}
   .section-3 > p {
     padding-right: 0;
     font-size: 18px;
-    width: 76%;
-  }
+    width: 100%;
+  }.container .images p {
+    font-size: 17px;
+   
+}.item-para {
+    font-size: 16px;
+    
+}.value-child-content > p ,.section-2-1-text > p{
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    
+}.value-child-content > h4 {
+    
+    font-size: 21px;
+    
+}
 }

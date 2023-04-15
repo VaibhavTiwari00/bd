@@ -17,51 +17,51 @@
     <!-- FORTIFICATION CSS -->
     <link rel="stylesheet" href="<?= get_file('fortification.css'); ?>">
 
+    <!-- View Products section css  -->
+    <link rel="stylesheet" href="<?= get_file('view_product_show.css'); ?>">
+
+
     <style>
-        .about-box {
-            width: 50%;
-            height: max-content;
-            background-color: var(--bg-yellow);
-            position: absolute;
-            top: 27%;
-            right: 10%;
-            padding: 5% 4% 8% 4%;
-            color: #262626;
-            overflow: hidden;
+        .div-container-padding>h6 {
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 10px;
         }
 
-        .about-box>p {
-            margin: 5% 0 10% 0;
-            font-size: 18px;
-            line-height: 1.5;
-            letter-spacing: 2px;
-            opacity: 0.8;
+        .forti-para {
+            font-size: 19px;
+            color: var(--txt-gray);
+            padding-bottom: 10%;
+            z-index: 1;
+            margin: 4% 0 0 0;
+            letter-spacing: 0.7px;
+            line-height: 1.4;
+            font-weight: 300;
+            color: #fff;
         }
 
         @media screen and (max-width:900px) {
-            .about-box {
-                width: 90%;
-                top: 30%;
-                padding: 4%;
-                right: 5%;
-                height: unset;
+            .div-container-padding>h6 {
+                font-size: 35px;
+                text-align: center;
+                padding-bottom: 10px;
             }
-        }
 
-        @media screen and (max-width:900px) {
+            .forti-para {
+                font-size: 16px;
 
-
-            .about-box>h2 {
-                font-size: 40px;
-                letter-spacing: 4px;
             }
 
             .about-box>p {
-                margin: 5% 0 10% 0;
-                font-size: 15px;
-                line-height: 1.5;
-                letter-spacing: 2px;
-                opacity: 1;
+
+                font-size: 16px;
+
+            }
+
+            .about-partners {
+
+                height: 530px;
+
             }
         }
     </style>
@@ -71,10 +71,12 @@
 
     <?php include_once header; ?>
 
-    <main style="margin-bottom:50vh">
-        <section class="about-partners">
-            <img src="./assets/img/benefits-of-wholegrains-1200x628-facebook-1200x628-1.jpg" alt="">
+    <main>
 
+
+        <section class="about-partners">
+
+            <img src="./assets/img/benefits-of-wholegrains-1200x628-facebook-1200x628-1.jpg" alt="">
             <div class="about-box">
                 <div class="about-box-svg">
                     <img src="./assets/img/schema-bg.png" alt="">
@@ -84,52 +86,33 @@
                 </h2>
 
 
-
                 <p>
-                    Healthy food is the right of every citizen. Unfortunately, every 2nd Indian man and woman suffers from anemia and the 3rd child faces stunted growth. Fortification is the process of adding FSSAI-prescribed micronutrients (Iron, Folic Acid, Vitamin B12) to commonly consumed staples like rice, wheat, milk, and salt. Fortification of rice offers a sustainable solution to “hidden hunger” as rice is consumed by 65% of the Indian population.
-                    <br><br> Considering the benefits, the GoI has mandated the supply of fortified rice and wheat through government schemes across the country. We are the trusted partner of the FCI and the West Bengal government for the supply of fortified rice kernels (FRK), fortified wheat, and micronutrient-enriched pre-mixes.<br><br>
-                    Our facilities are based on international guidelines laid by PATH and GAIN (Global Alliance for Improved Nutrition) which allows us to customize the FRKs as per the client’s requirements.
-
+                    Healthy food is the right of every citizen. Unfortunately, every 2nd Indian man and woman suffers from anemia and the 3rd child faces stunted growth.
                 </p>
 
-                <!-- <a href="#product" class="scroll-txt">Scroll</a> -->
+                <a href="#product" class="scroll-txt">Scroll</a>
 
             </div>
 
         </section>
 
+        <section class="div-container-padding product " id="product" style="margin: 2% 0 0 0 !important;">
+
+            <h6>More About Fortification</h6>
 
 
-        <!-- news section start -->
-        <!-- <section class="div-container-padding news">
-            <div class="new-header">
-                <h3>
-                    OUR LATEST NEWS
-                </h3>
-
-                <a href="#">ALL NEWS</a>
-            </div>
 
 
-            <div class="new-item-container">
-                <div class="item-news" style="background-image: url('./assets/img/about-news-1.jpeg')">
-                    <div class=" news-details">
-                        <span>Decembre 31, 2021</span>
-                        <p>Acme follows the new UAE working week.</p>
-                    </div>
-                </div>
 
-                <div class="item-news" style="background-image: url('./assets/img/about-news-2.png')">
-                    <div class="news-details">
-                        <span>Decembre 31, 2021</span>
-                        <p>Acme follows the new UAE working week.</p>
-                    </div>
-                </div>
+            <p class="forti-para">Fortification is the process of adding FSSAI-prescribed micronutrients (Iron, Folic Acid, Vitamin B12) to commonly consumed staples like rice, wheat, milk, and salt. Fortification of rice offers a sustainable solution to “hidden hunger” as rice is consumed by 65% of the Indian population.
+                <br><br> Considering the benefits, the
+                Government of India has mandated the supply of fortified rice and wheat through government schemes across the country. We are the trusted partner of the FCI and the West Bengal government for the supply of fortified rice kernels (FRK), fortified wheat, and micronutrient-enriched pre-mixes.<br><br>
+                Our facilities are based on international guidelines laid by PATH and GAIN (Global Alliance for Improved Nutrition) which allows us to customize the FRKs as per the client’s requirements.
+            </p>
 
-            </div>
 
-        </section> -->
-        <!-- news section end -->
+        </section>
+
     </main>
 
 

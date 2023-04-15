@@ -15,60 +15,53 @@
     <!-- THIS PAGE CSS FILES -->
     <link rel="stylesheet" href="<?= get_file('products.css'); ?>">
 
+    <!-- View Products section css  -->
+    <link rel="stylesheet" href="<?= get_file('view_product_show.css'); ?>">
+
     <style>
-        footer {
-            margin-top: 350px;
-        }
-    </style>
-    <style>
-        .about-box {
-            width: 50%;
-            height: max-content;
-            background-color: var(--bg-yellow);
-            position: absolute;
-            top: 27%;
-            right: 10%;
-            padding: 5% 4% 8% 4%;
-            color: #262626;
-            overflow: hidden;
+        .div-container-padding>h6 {
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 10px;
         }
 
-        .about-box>p {
-            margin: 5% 0 10% 0;
-            font-size: 18px;
-            line-height: 1.5;
-            letter-spacing: 2px;
-            opacity: 0.8;
-        }
-
-        @media screen and (max-width:1200px) {
-            .about-box {
-                width: 90%;
-                top: 30%;
-                padding: 4%;
-                right: 5%;
-                height: unset;
-            }
+        .forti-para {
+            font-size: 19px;
+            color: var(--txt-gray);
+            padding-bottom: 10%;
+            z-index: 1;
+            margin: 4% 0 0 0;
+            letter-spacing: 0.7px;
+            line-height: 1.4;
+            font-weight: 300;
+            color: #fff;
         }
 
         @media screen and (max-width:900px) {
+            .div-container-padding>h6 {
+                font-size: 35px;
+                text-align: center;
+                padding-bottom: 10px;
+            }
 
+            .forti-para {
+                font-size: 16px;
 
-            .about-box>h2 {
-                font-size: 40px;
-                letter-spacing: 4px;
             }
 
             .about-box>p {
-                margin: 5% 0 10% 0;
-                font-size: 15px;
-                line-height: 1.5;
-                letter-spacing: 2px;
-                opacity: 1;
+
+                font-size: 16px;
+
+            }
+
+            .about-partners {
+
+                height: 530px;
+
             }
         }
     </style>
-
 </head>
 
 <body>
@@ -76,65 +69,47 @@
     <?php include_once header; ?>
 
     <main>
-        <section class="about-partners">
-            <img src="./assets/img/home-4-01.jpeg" alt="">
 
+
+        <section class="about-partners">
+
+            <img src="./assets/img/home-4-01.jpeg" alt=" Sustainability & CSR Activities">
             <div class="about-box">
                 <div class="about-box-svg">
-                    <img src="./assets/img/schema-bg.png" alt="">
+                    <img src="./assets/img/schema-bg.png" alt=" Sustainability & CSR Activities">
                 </div>
                 <h2>
                     Sustainability & CSR Activities
                 </h2>
 
 
-
                 <p>
-                    Our Directors understood the magnifying importance of sustainable industrial processes as early as 2006. They set up our in-house power generation boiler plant at Kolkata to produce our own electricity using the byproduct, rice husk. Currently, we have scaled to a 4 MW power generation plant ensuring “waste-to-energy” conversion along with supporting process economics.<br><br>
-                    We ensure environmental compliance through our zero-liquid discharge (ZLD) technologies. Our packaging products adhere to the Food Safety and Standards (Packaging and Labeling) Regulations 2011, and BIS.
-                    Our machinery and warehousing comply with the industrial energy efficiency standards laid by the Bureau of Energy Efficiency of India, 2018.
-                    <!-- Giving Hope and Life to the Abandoned Girl Child of West Bengal.
-                    Taking up social responsibility with full heart, Late Shri B.D. Agarwal: the eponym of the B.D. Corporates established a wholesome care facility in 1975 for unfortunate girls abandoned by their parents. The humble cause started with the education, grooming, and meeting of the daily needs of 6 girls. The ashram presently houses 300 girls. The administration’s focus spans their medical, hygienic, and extra-curricular developmental needs. -->
+                    Our Directors understood the magnifying importance of sustainable industrial processes as early as 2006. They set up our in-house power generation boiler plant at Kolkata to produce our own electricity using the byproduct, rice husk.
                 </p>
 
-                <!-- <a href="#" class="scroll-txt">Scroll</a> -->
+                <a href="#product" class="scroll-txt">Scroll</a>
 
             </div>
 
         </section>
 
+        <section class="div-container-padding product " id="product" style="margin: 2% 0 0 0 !important;">
+
+            <h6>More About Sustainability & CSR Activities</h6>
 
 
-        <!-- news section start -->
-        <!-- <section class="div-container-padding news">
-            <div class="new-header">
-                <h3>
-                    OUR LATEST NEWS
-                </h3>
-
-                <a href="#">ALL NEWS</a>
-            </div>
 
 
-            <div class="new-item-container">
-                <div class="item-news" style="background-image: url('./assets/img/about-news-1.jpeg')">
-                    <div class=" news-details">
-                        <span>Decembre 31, 2021</span>
-                        <p>Acme follows the new UAE working week.</p>
-                    </div>
-                </div>
 
-                <div class="item-news" style="background-image: url('./assets/img/about-news-2.png')">
-                    <div class="news-details">
-                        <span>Decembre 31, 2021</span>
-                        <p>Acme follows the new UAE working week.</p>
-                    </div>
-                </div>
+            <p class="forti-para">Currently, we have scaled to a 4 MW power generation plant ensuring “waste-to-energy” conversion along with supporting process economics.<br><br>
+                We ensure environmental compliance through our zero-liquid discharge (ZLD) technologies. Our packaging products adhere to the Food Safety and Standards (Packaging and Labeling) Regulations 2011, and BIS.
+                Our machinery and warehousing comply with the industrial energy efficiency standards laid by the Bureau of Energy Efficiency of India, 2018.
+            </p>
 
-            </div>
 
-        </section> -->
-        <!-- news section end -->
+        </section>
+
+
     </main>
 
 

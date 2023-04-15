@@ -132,6 +132,16 @@
   width: 4px;
   background-color: var(--bg-yellow);
 }
+.v-line {
+    position: absolute;
+    top: 11px;
+    bottom: 200px;
+    border-top-right-radius: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    background-color: var(--bg-yellow);
+}
 
 .roadmap-item > h2 {
   color: var(--txt-yellow);

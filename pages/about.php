@@ -149,7 +149,7 @@
                 <p class="phil-para">*In-house packaging and integrated supply chain for self-reliance</p><br>
                 <p class="phil-para">*Focus on supporting the growth of regional retail brands</p><br>
 
-                <h2>WE BELIEVE IN SUPPLY CHAIN INTEGRATION</h2>
+                <h2 id="we_believe">WE BELIEVE IN SUPPLY CHAIN INTEGRATION</h2>
 
             </div>
             <img src="<?= get_img() ?>supply-chain.jpg" alt="supply-chain">

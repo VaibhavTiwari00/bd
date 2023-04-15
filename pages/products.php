@@ -88,7 +88,7 @@
         </section> -->
 
         <!-- product section start -->
-        <section class="div-container-padding product mb-5" id="product">
+        <section class="div-container-padding product" id="product" style="margin-top:2%;">
 
             <h6>Our Products</h6>
             <div class="products-child-links">

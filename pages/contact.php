@@ -182,12 +182,12 @@
                                 </a>
                             </li> -->
 
-                            <!-- <li>
+                            <li>
                                 <a href="#">
                                     <i class="fas fa-at"></i>
-                                    info@bd.com
+                                    bd_123corporates@yahoo.com
                                 </a>
-                            </li> -->
+                            </li>
                         </ul>
                     </div>
 

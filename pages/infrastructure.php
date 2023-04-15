@@ -29,8 +29,6 @@
             letter-spacing: 4px;
         }
 
-
-
         .product-child-grid-content>ol {
             margin-left: 15px;
 
@@ -38,7 +36,6 @@
 
         .product-child-grid-content>p,
         .product-child-grid-content>ol>li {
-
             font-size: 1.125rem;
             line-height: 1.5;
             color: #fff;
@@ -113,7 +110,7 @@
         </section>
 
         <!-- product section start -->
-        <section class="div-container-padding product mb-5" id="product">
+        <section class="div-container-padding product " id="product" style="margin-top:2%;">
 
             <h6>Our Facilities</h6>
             <div class="products-child-links">
