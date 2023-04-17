@@ -8,7 +8,7 @@
 
 
 
-    <title>B.D Corporates</title>
+    <title>B.D. Corporates</title>
 
     <?php include_once head; ?>
 

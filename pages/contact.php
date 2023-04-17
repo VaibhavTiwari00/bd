@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
 
-    <title>Contact Us - BD (group of industry)</title>
+    <title>B.D. Corporates || Contact Us</title>
 
     <?php include_once head; ?>
 
